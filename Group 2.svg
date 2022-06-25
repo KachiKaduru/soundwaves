@@ -1,0 +1,25 @@
+<svg width="94" height="94" viewBox="0 0 94 94" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="47" cy="47" r="46" stroke="url(#paint0_linear_8_55)" stroke-width="2"/>
+<mask id="mask0_8_55" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="23" y="31" width="50" height="33">
+<line x1="24.5" y1="43.4666" x2="24.5" y2="51.4333" stroke="black" stroke-width="3" stroke-linecap="round"/>
+<line x1="71.5" y1="43.4666" x2="71.5" y2="51.4333" stroke="black" stroke-width="3" stroke-linecap="round"/>
+<line x1="63.6666" y1="40.3333" x2="63.6666" y2="54.5667" stroke="black" stroke-width="3" stroke-linecap="round"/>
+<line x1="32.3334" y1="40.3333" x2="32.3334" y2="54.5667" stroke="black" stroke-width="3" stroke-linecap="round"/>
+<line x1="40.1666" y1="35.6333" x2="40.1666" y2="57.7" stroke="black" stroke-width="3" stroke-linecap="round"/>
+<line x1="55.8334" y1="35.6333" x2="55.8334" y2="57.7" stroke="black" stroke-width="3" stroke-linecap="round"/>
+<line x1="48" y1="32.5" x2="48" y2="62.4" stroke="black" stroke-width="3" stroke-linecap="round"/>
+</mask>
+<g mask="url(#mask0_8_55)">
+<rect x="10.9667" y="31.3333" width="68.9333" height="36.0333" fill="url(#paint1_linear_8_55)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_8_55" x1="47" y1="0" x2="47" y2="94" gradientUnits="userSpaceOnUse">
+<stop stop-color="#955797"/>
+<stop offset="1" stop-color="#E69494"/>
+</linearGradient>
+<linearGradient id="paint1_linear_8_55" x1="45.4333" y1="31.3333" x2="45.4333" y2="67.3667" gradientUnits="userSpaceOnUse">
+<stop stop-color="#955797"/>
+<stop offset="1" stop-color="#E69494"/>
+</linearGradient>
+</defs>
+</svg>
