@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+body {
+  font-family: 'Libre Baskerville', serif;
+  background: #433E3F;
+  margin: 0;
+  color: #FFFFFF;
+}
+
+body a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+body ul {
+  list-style-type: none;
+}
+
+header {
+  background-color: red;
+  height: 60px;
+}
+
+header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: auto 21px;
+}
+
+header .logo {
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  gap: 5px;
+}
+
+header .logo img {
+  width: 50px;
+  display: block;
+  margin: auto;
+}
+
+header .logo h4 {
+  display: inline;
+}
+
+header .mobile-menu {
+  width: 32px;
+}
+
+header nav {
+  display: none;
+}
+/*# sourceMappingURL=main.css.map */
