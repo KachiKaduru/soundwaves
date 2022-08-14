@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sound waves</title>
+    <title>Login</title>
     <link rel="stylesheet" href="form.css">
 </head>
 <body>
@@ -12,25 +12,24 @@
         <div class="container">
             <div class="logo">
                 <img src="Group 2.svg" alt="">
-
                 <h4>sound waves</h4>
             </div>
 
-            <img src="menu.svg" alt="menu" class="mobile-menu" id="menuMobile">
+            <img src="menu.svg" alt="" class="mobile-menu" id="menuMobile" onclick="openNav()">
 
-            <nav>
-                <img src="exit.svg" alt="exit" class="mobile-exit" id="exitMobile">
+            <nav class="side-nav" id="sideNav">
+                <img src="exit.svg" alt="" class="mobile-exit" id="exitMobile" onclick="closeNav()">
 
                 <ul class="pry-nav">
                     <li><a href="">Discover</a></li>
                     <li><a href="">Home</a></li>
                     <li><a href="">Pricing</a></li>
-                    <li><a href="">Download App</a></li>
+                    <li><a href="">Download app</a></li>
                 </ul>
 
                 <ul class="sec-nav">
-                    <li ><a href="" class="join-btn">Join</a></li>
-                    <li ><a href="" class="login-btn">Login</a></li>
+                    <li><a href="" class="join-btn">Join</a></li>
+                    <li><a href="" class="login-btn">Login</a></li>
                 </ul>
             </nav>
         </div>
@@ -38,29 +37,33 @@
 
     <main>
         <div class="container">
-            <img src="grey-girl.png" alt="">
-            
+            <div class="left-column">
+                <img src="grey-girl.png" alt="">
+
+                <h1>Join the <span>Vibe</span></h1>
+            </div>
+
             <div class="right-column">
                 <form action="">
-                    <label for="">
+                    <fieldset>
                         <legend>Name</legend>
-                        <input type="text" placeholder="your name">
-                    </label>
+                        <input type="text" name="name" required>
+                    </fieldset>
 
-                    <label for="">
+                    <fieldset>
                         <legend>Email</legend>
-                        <input type="email" placeholder="your email">
-                    </label>
-                    
-                    <label for="">
-                        <legend>Password</legend>
-                        <input type="password" placeholder="password">
-                    </label>
-                </form>
+                        <input type="email" name="email" required>
+                    </fieldset>
 
-                <div class="join-now">
-                    <a href="Join Now">Join Now</a>
-                </div>
+                    <fieldset>
+                        <legend>Password</legend>
+                        <input type="password" name="password" required minlength="8">
+                    </fieldset>
+
+                    <input type="submit" value="Join Now">
+
+                    <a href="">Join Now</a>
+                </form>
             </div>
         </div>
 
@@ -71,19 +74,14 @@
         </div>
     </main>
 
-
     <script>
-        const mobileBtn = document.getElementById('menuMobile')
-        const nav = document.querySelector('nav')
-        const mobileBtnExit = document.getElementById('exitMobile');
-        
-        mobileBtn.addEventListener('click', () => {
-            nav.classList.add('menu-btn');
-        })
+        function openNav() {
+            document.getElementById("sideNav").style.width = "50%";
+        }
 
-        mobileBtnExit.addEventListener('click', () => {
-            nav.classList.remove('menu-btn');
-        })
+        function closeNav() {
+            document.getElementById("sideNav").style.width = "0";
+        }
     </script>
 </body>
 </html>
