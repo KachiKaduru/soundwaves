@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
 body {
-  font-family: 'Libre Baskerville', serif;
+  font-family: "Libre Baskerville", serif;
   background: #433E3F;
   margin: 0;
   color: #FFFFFF;
@@ -10,72 +10,55 @@ body {
 }
 
 * {
-  -webkit-transition: .3s;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 header {
   height: 60px;
   background-color: red;
 }
-
 header .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   margin: auto 1rem;
 }
-
 header .logo {
   margin: auto;
 }
-
 header .logo img {
   width: 50px;
   height: 50px;
 }
-
 header .logo h4 {
   display: inline;
   position: relative;
   top: -12px;
 }
-
 header .mobile-menu {
   width: 30px;
-  -webkit-filter: invert(1);
-          filter: invert(1);
+  filter: invert(1);
 }
-
 header nav {
-  background: -webkit-gradient(linear, left top, left bottom, from(#955797), to(#E69494));
   background: linear-gradient(180deg, #955797 0%, #E69494 100%);
-  opacity: .95;
+  opacity: 0.95;
   position: absolute;
   top: 0;
   right: 0%;
   width: 0%;
   height: 100vh;
 }
-
 header nav .mobile-exit {
   width: 30px;
   margin: 12px 1em 0rem;
   text-align: left;
 }
-
 header nav ul {
   list-style-type: none;
   margin: 4em 0;
 }
-
 header nav ul li {
-  margin: 1.3em -.5em;
+  margin: 1.3em -0.5em;
 }
-
 header nav ul a {
   color: #FFFFFF;
   text-decoration: none;
@@ -84,60 +67,45 @@ header nav ul a {
 main .images {
   display: none;
 }
-
 main .container {
-  display: -ms-grid;
   display: grid;
 }
-
 main .left-column {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: column-reverse;
-          flex-direction: column-reverse;
+  flex-direction: column-reverse;
 }
-
 main .left-column img {
   display: block;
   width: 100%;
   margin: auto;
 }
-
 main .left-column h1 {
   text-align: center;
   position: absolute;
   top: 2em;
   left: 2em;
 }
-
 main .left-column h1 span {
   color: #955797;
 }
-
 main .right-column {
-  background: #2B2C28B2;
+  background: rgba(43, 44, 40, 0.6980392157);
   border-radius: 24px;
   margin: 2em 2em;
   padding: 1em 0px;
 }
-
 main .right-column form fieldset {
   border: none;
   margin-bottom: 12px;
 }
-
 main .right-column form input {
   width: 100%;
   height: 20px;
   border: 1px solid #ccc;
   border-radius: 6px;
-  background-color: #2B2C28B2;
-  opacity: .7;
+  background-color: rgba(43, 44, 40, 0.6980392157);
+  opacity: 0.7;
 }
-
 main .right-column form a {
   display: block;
   background-color: #955797;
@@ -151,4 +119,3 @@ main .right-column form a {
   font-size: 20px;
   padding: 1em;
 }
-/*# sourceMappingURL=form.css.map */

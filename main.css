@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
 body {
-  font-family: 'Libre Baskerville', serif;
+  font-family: "Libre Baskerville", serif;
   background: #433E3F;
   margin: 0;
   color: #FFFFFF;
@@ -8,45 +8,33 @@ body {
 }
 
 * {
-  -webkit-transition: .3s;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 header {
   height: 60px;
 }
-
 header .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   margin: 0 21px;
 }
-
 header .container .logo {
   margin: auto;
 }
-
 header .container .logo img {
   width: 50px;
   height: 50px;
 }
-
 header .container .logo h4 {
   display: inline;
   position: relative;
   top: -12px;
 }
-
 header .mobile-menu {
   width: 35px;
-  -webkit-filter: invert(1);
-          filter: invert(1);
+  filter: invert(1);
 }
-
 header nav {
   display: none;
 }
@@ -61,12 +49,10 @@ nav {
   width: 60%;
   right: 0;
   top: 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(#955797), to(#E69494));
   background: linear-gradient(180deg, #955797 0%, #E69494 100%);
-  opacity: .9;
+  opacity: 0.9;
   height: 100vh;
 }
-
 nav .mobile-exit {
   height: 30px;
   display: block;
@@ -75,21 +61,18 @@ nav .mobile-exit {
   margin-right: 1.5em;
   cursor: pointer;
 }
-
 nav ul {
   margin-top: 4em;
   margin-left: -1em;
   list-style-type: none;
 }
-
 nav ul a {
   text-decoration: none;
   color: white;
   display: block;
-  padding: .8em;
+  padding: 0.8em;
   text-align: right;
 }
-
 nav ul a:hover {
   color: grey;
   font-weight: 700;
@@ -108,22 +91,14 @@ main img {
     height: 90px;
   }
   header .container {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 200px auto;
-        grid-template-columns: 200px auto;
+    grid-template-columns: 200px auto;
     gap: 200px;
-    -webkit-box-pack: unset;
-        -ms-flex-pack: unset;
-            justify-content: unset;
+    justify-content: unset;
   }
   header nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    justify-content: space-evenly;
     background: none;
     position: unset;
     height: auto;
@@ -135,8 +110,6 @@ main img {
     display: none;
   }
   header nav ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   header .pry-nav li {
@@ -168,12 +141,8 @@ main img {
     position: relative;
   }
   main .container {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    justify-content: space-evenly;
   }
   main .right-column {
     margin: auto 0px;
@@ -206,7 +175,7 @@ main img {
     width: 194px;
     height: 180px;
     left: 426px;
-    top: 09px;
+    top: 9px;
   }
   main .images .shape {
     position: absolute;
@@ -224,4 +193,3 @@ main img {
     top: 74px;
   }
 }
-/*# sourceMappingURL=main.css.map */
